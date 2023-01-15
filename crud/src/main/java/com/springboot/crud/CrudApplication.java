@@ -14,7 +14,7 @@ public class CrudApplication {
 		System.out.println("CrudApplication.main()");
 		
 
-		System.out.println("");
+		System.out.println("HI");
 
 	}
 	
