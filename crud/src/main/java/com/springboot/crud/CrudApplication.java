@@ -18,6 +18,8 @@ public class CrudApplication {
 		
 		System.out.println("Hello");
 
+		System.out.println("HelloKalyan");
+
 	}
 	
 
