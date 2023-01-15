@@ -52,8 +52,11 @@ public class crudcontroller {
 	public String deleteDataById(@PathVariable int id) {
 		return service.deleteById(id);
 	}
+
 	public void m1() {
-		
+	}
+	public void controllerProcess() {
+
 	}
 
 	
