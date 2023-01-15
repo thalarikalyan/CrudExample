@@ -58,6 +58,9 @@ public class crudcontroller {
 	public void controllerProcess() {
 
 	}
+	//changes for bug
+	
+	int i=10;
 
 	
 	
