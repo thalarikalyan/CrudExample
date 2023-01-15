@@ -8,10 +8,14 @@ public class CrudApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
+
 		///MY Name is kalyan
 		
 		System.out.println("CrudApplication.main()");
 		
+
+		System.out.println("");
+
 	}
 	
 
