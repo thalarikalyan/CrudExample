@@ -18,6 +18,7 @@ import com.springboot.crud.service.crudservice;
 
 @RestController
 public class crudcontroller {
+
 	
 	@Autowired
 	private crudservice service;
