@@ -19,35 +19,32 @@ import com.springboot.crud.service.crudservice;
 @RestController
 public class crudcontroller {
 
-	
 	@Autowired
 	private crudservice service;
-	
+
 	@PostMapping("/users")
 	public crudmodel addUser(@RequestBody crudmodel user) {
 		return service.adduser(user);
-	
+
 	}
-	
+
 	@GetMapping("/getData")
 	@CrossOrigin(origins = "http://localhost:4200")
 	public List<crudmodel> getUser() {
 		return service.fetchUser();
 	}
-	
-	
+
 	@GetMapping("/getDataById/{id}")
-	public Optional<crudmodel> getDataById(@PathVariable int id){
+	public Optional<crudmodel> getDataById(@PathVariable int id) {
 		return service.getUserDataById(id);
 	}
-	
-	
+
 	@PutMapping("/UpdateUsers")
 	public crudmodel updateUser(@RequestBody crudmodel user) {
 		return service.updateUser(user);
-	
+
 	}
-	
+
 	@DeleteMapping("/deleteDataById/{id}")
 	public String deleteDataById(@PathVariable int id) {
 		return service.deleteById(id);
@@ -55,14 +52,18 @@ public class crudcontroller {
 
 	public void m1() {
 	}
+
 	public void controllerProcess() {
 
 	}
-	//changes for bug
-	
-	int i=10;
 
-	
-	
+	// changes for bug
+
+	int i = 10;
+
+	// Making partial changes
+	public void m5() {
+
+	}
 
 }
