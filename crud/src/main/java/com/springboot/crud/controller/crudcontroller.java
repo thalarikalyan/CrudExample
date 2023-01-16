@@ -59,11 +59,14 @@ public class crudcontroller {
 
 	// changes for bug
 
-	int i = 10;
+	int i = 20;
 
 	// Making partial changes
 	public void m5() {
 
 	}
 
+	public void m3() {
+		
+	}
 }
